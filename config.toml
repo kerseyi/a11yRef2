@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "A11y Ref"
-baseURL = "https://kerseyi.github.io/a11y-ref/"
+baseURL = "https://kerseyi.github.io/a11yRef2/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"
