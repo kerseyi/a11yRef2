@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A11y Ref</title>
-    <link>https://kerseyi.github.io/a11y-ref/tags/</link>
+    <link>https://kerseyi.github.io/a11yRef2/tags/</link>
     <description>Recent content in Tags on A11y Ref</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://kerseyi.github.io/a11y-ref/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kerseyi.github.io/a11yRef2/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>markdown</title>
-      <link>https://kerseyi.github.io/a11y-ref/tags/markdown/</link>
+      <link>https://kerseyi.github.io/a11yRef2/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kerseyi.github.io/a11y-ref/tags/markdown/</guid>
+      <guid>https://kerseyi.github.io/a11yRef2/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metadata</title>
-      <link>https://kerseyi.github.io/a11y-ref/tags/metadata/</link>
+      <link>https://kerseyi.github.io/a11yRef2/tags/metadata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kerseyi.github.io/a11y-ref/tags/metadata/</guid>
+      <guid>https://kerseyi.github.io/a11yRef2/tags/metadata/</guid>
       <description></description>
     </item>
     

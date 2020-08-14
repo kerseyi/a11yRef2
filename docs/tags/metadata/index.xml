@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>metadata on A11y Ref</title>
-    <link>https://kerseyi.github.io/a11y-ref/tags/metadata/</link>
+    <link>https://kerseyi.github.io/a11yRef2/tags/metadata/</link>
     <description>Recent content in metadata on A11y Ref</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://kerseyi.github.io/a11y-ref/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kerseyi.github.io/a11yRef2/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown &amp; metadata</title>
-      <link>https://kerseyi.github.io/a11y-ref/patterns/writing/markdown-and-metadata/</link>
+      <link>https://kerseyi.github.io/a11yRef2/patterns/writing/markdown-and-metadata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kerseyi.github.io/a11y-ref/patterns/writing/markdown-and-metadata/</guid>
+      <guid>https://kerseyi.github.io/a11yRef2/patterns/writing/markdown-and-metadata/</guid>
       <description>In Cupper everything is documented using markdown, as a &amp;ldquo;pattern&amp;rdquo;. To create a new pattern file, just add a file with the .md extension to the content/patterns folder. It&amp;rsquo;s recommended you use &amp;ldquo;kebab case&amp;rdquo; to name the file (words separated by hyphens). For example, a pattern with the title &amp;ldquo;Menu button&amp;rdquo; should probably have the filename menu-button. Then you get a nice clean URL: username.github.io/your-library/patterns/menu-button.
 If you&amp;rsquo;re not familiar with writing markdown, there are a number of tutorials available.</description>
     </item>
