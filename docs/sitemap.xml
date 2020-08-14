@@ -7,15 +7,15 @@
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/installation/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/expandable-sections/</loc>
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/project-structure/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/home/</loc>
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/project-structure/</loc>
   </url>
   
   <url>
@@ -31,7 +31,7 @@
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/markdown-and-metadata/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/markdown-and-metadata/</loc>
   </url>
   
   <url>
@@ -51,21 +51,20 @@
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/expandable-sections/</loc>
-  </url>
-  
-  <url>
     <loc>https://kerseyi.github.io/a11yRef2/print-version/</loc>
     <lastmod>2017-07-29T22:48:43+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://kerseyi.github.io/a11yRef2/</loc>
-    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://kerseyi.github.io/a11yRef2/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/</loc>
   </url>
   
   <url>
@@ -101,7 +100,7 @@
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/notes-and-warnings/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/notes-and-warnings/</loc>
   </url>
   
   <url>
@@ -109,15 +108,15 @@
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/references/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/references/</loc>
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/snippets/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/snippets/</loc>
   </url>
   
   <url>
-    <loc>https://kerseyi.github.io/a11yRef2/patterns/writing/tables-of-contents/</loc>
+    <loc>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/tables-of-contents/</loc>
   </url>
   
   <url>

@@ -11,15 +11,13 @@
     
     
     <item>
-      <title>Installation</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/installation/</link>
+      <title>Home</title>
+      <link>https://kerseyi.github.io/a11yRef2/patterns/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/installation/</guid>
-      <description>Cupper is built using the static site engine, Hugo, and NPM. The codebase is available to download on Github. Let&amp;rsquo;s get everything installed step-by-step.
-Install Hugo First you need to install Hugo globally.
-OSX users If you are a Mac user and have Homebrew on your system, installing Hugo is simple:
-brew install hugoAlternatively, you can manually install Hugo from a package. You can verify the installation was successful by typing:</description>
+      <guid>https://kerseyi.github.io/a11yRef2/patterns/home/</guid>
+      <description>A11y Code Patterns and References A repository of accessible component code patterns, references, and educational materials. Comiled from aewsome sources across the internets.
+Quicklinks  WCAG Quick Ref WCAG Tutorials  Page Structure Menus Images Tables Forms Carousels   WCAG-EM Report Tool Accessiblity Support (a11y CanIuse) Hidden Content  </description>
     </item>
     
     <item>
@@ -28,7 +26,7 @@ brew install hugoAlternatively, you can manually install Hugo from a package. Y
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kerseyi.github.io/a11yRef2/patterns/setup/</guid>
-      <description>By now, you should have followed the Installationinstructions. You should have Hugo and Node installed, and a local copy of a forked version of Cupper. You should also have run npm install in the root of that codebase.
+      <description>By now, you should have followed the instructions. You should have Hugo and Node installed, and a local copy of a forked version of Cupper. You should also have run npm install in the root of that codebase.
 &amp;ldquo;Cleaning&amp;rdquo; the content folder Before you can start writing documentation, there are a few things still to do in order to get set up. At the moment, your version of Cupper is a facsimile of the original, containing all the content you&amp;rsquo;re reading right now.</description>
     </item>
     

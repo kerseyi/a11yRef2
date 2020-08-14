@@ -1,18 +1,19 @@
 +++
-date = "2017-06-26T18:27:58+01:00"
-title = "The Cupper Documentation Builder"
+title = "A11y Code Patterns and References"
 +++
 
-Welcome to **Cupper**: a documentation builder for inclusive designers and those trying to be inclusive designers. These are **Cupper's** docs, but they are also an example of a site built with **Cupper**. Here are some of its features:
+A repository of accessible component code patterns, references, and educational materials. Comiled from aewsome sources across the internets.
 
-{{% ticks %}}
-* Built with [Hugo](https://gohugo.io/), so easy to structure content and fast to compile it
-* Available to read offline, as a [Progressive Web App](https://developers.google.com/web/progressive-web-apps/)
-* Include encapsulated live demos, inline with your markdown, [using Shadow DOM](https://www.smashingmagazine.com/2017/07/pattern-libraries-in-markdown/)
-* Quickly include WCAG and [Inclusive Design Principles](http://inclusivedesignprinciples.org/) references
-* A responsive, screen reader and keyboard accessible static site as output
-* Automated Github Pages deployment
-* Includes a single-page printable version suitable for PDF conversion
-{{% /ticks %}}
+## Quicklinks
 
-To get started, take a look at {{% pattern "Installation" %}}.
+-	[WCAG Quick Ref](https://www.w3.org/WAI/WCAG21/quickref/) 
+-	[WCAG Tutorials](https://www.w3.org/WAI/tutorials/page-structure/)
+	-	[Page Structure](https://www.w3.org/WAI/tutorials/page-structure/)
+	-	[Menus](https://www.w3.org/WAI/tutorials/menus/)
+	-	[Images](https://www.w3.org/WAI/tutorials/images/)
+	-	[Tables](https://www.w3.org/WAI/tutorials/tables/)
+	-	[Forms](https://www.w3.org/WAI/tutorials/forms/)
+	-	[Carousels](https://www.w3.org/WAI/tutorials/carousels/)
+- 	[WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/#!/)
+- 	[Accessiblity Support (a11y CanIuse)](https://a11ysupport.io/)
+- 	[Hidden Content](https://kb.iu.edu/d/arwj)
