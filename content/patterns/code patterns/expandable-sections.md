@@ -25,4 +25,6 @@ There are a number of ways to construct an accordion menu. Below, we provide som
 
 {{% snippet file="details.md" %}}
 
+{{% snippet file="visually-hidden.md" %}}
+
 

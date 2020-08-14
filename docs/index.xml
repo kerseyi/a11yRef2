@@ -32,26 +32,6 @@ So, this…
     </item>
     
     <item>
-      <title>Home</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/home/</guid>
-      <description>A11y Code Patterns and References A repository of accessible component code patterns, references, and educational materials. Comiled from aewsome sources across the internets.
-Quicklinks  WCAG Quick Ref WCAG Tutorials  Page Structure Menus Images Tables Forms Carousels   WCAG-EM Report Tool Accessiblity Support (a11y CanIuse) Hidden Content  </description>
-    </item>
-    
-    <item>
-      <title>Project structure</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/project-structure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/project-structure/</guid>
-      <description>Before you can set about making documentation, you need to know where everything goes. The simplest folder structure looks like this:
- content  _index.md print-version.md patterns  name-of-my-pattern.md name-of-my-other-pattern.md       /content - This is where all of your content lives. You won&amp;rsquo;t need to visit any other folders very frequently. _index.md — This is the content file for your home page. print-version.md — This is a placeholder for the single-page / print-friendly version of you library.</description>
-    </item>
-    
-    <item>
       <title>Demo embedding</title>
       <link>https://kerseyi.github.io/a11yRef2/patterns/coding/demo-embedding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -63,37 +43,6 @@ CodePen Cupper offers a couple of ways to do this. The first is by embedding Cod
     </item>
     
     <item>
-      <title>Setup</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/setup/</guid>
-      <description>By now, you should have followed the instructions. You should have Hugo and Node installed, and a local copy of a forked version of Cupper. You should also have run npm install in the root of that codebase.
-&amp;ldquo;Cleaning&amp;rdquo; the content folder Before you can start writing documentation, there are a few things still to do in order to get set up. At the moment, your version of Cupper is a facsimile of the original, containing all the content you&amp;rsquo;re reading right now.</description>
-    </item>
-    
-    <item>
-      <title>Markdown &amp; metadata</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/markdown-and-metadata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/markdown-and-metadata/</guid>
-      <description>In Cupper everything is documented using markdown, as a &amp;ldquo;pattern&amp;rdquo;. To create a new pattern file, just add a file with the .md extension to the content/patterns folder. It&amp;rsquo;s recommended you use &amp;ldquo;kebab case&amp;rdquo; to name the file (words separated by hyphens). For example, a pattern with the title &amp;ldquo;Menu button&amp;rdquo; should probably have the filename menu-button. Then you get a nice clean URL: username.github.io/your-library/patterns/menu-button.
-If you&amp;rsquo;re not familiar with writing markdown, there are a number of tutorials available.</description>
-    </item>
-    
-    <item>
-      <title>Serving</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/serving/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/serving/</guid>
-      <description>Serving locally While you&amp;rsquo;re creating content for your project, you&amp;rsquo;ll probably want to see what the finished product looks like. Fortunately, Cupper is easy to serve locally using the serve command:
-npm run serveThis will serve your working project from localhost:1313. Whenever you make changes to your files, the site will automatically rebuild. No need to refresh the web page!
-Publishing on Github Pages Cupper creates a /docs folder containing the latest version of your site whenever you do an npm run build or a git commit.</description>
-    </item>
-    
-    <item>
       <title>Writing inline demos</title>
       <link>https://kerseyi.github.io/a11yRef2/patterns/coding/writing-inline-demos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -101,27 +50,6 @@ Publishing on Github Pages Cupper creates a /docs folder containing the latest v
       <guid>https://kerseyi.github.io/a11yRef2/patterns/coding/writing-inline-demos/</guid>
       <description>There are some issues with Demo embedding, like the embeds not working offline. They also come with their own branding, which will clash with the pattern you&amp;rsquo;re trying to illustrate.
 Cupper offers another option: a special demo shortcode that allows you to write HTML, CSS, and JavaScript directly into the markdown file. The outputted demo is encapsulated using Shadow DOM, so you don&amp;rsquo;t have to worry about broken styles and global JS.</description>
-    </item>
-    
-    <item>
-      <title>Printing</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/printing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/printing/</guid>
-      <description>Cupper&amp;rsquo;s output site includes a one-page Print versionof the generated library, available at /print-version. So, if your library base URL is https://yourName.github.io/your-library, you can print the whole library — to PDF if wanted — from the following address:
-https://yourName.github.io/your-library/print-versionPrint styles are also provided for individual pattern pages so, if you wanted to print off a single pattern document, you can!</description>
-    </item>
-    
-    <item>
-      <title>Updating Cupper</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/updating/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/updating/</guid>
-      <description>The core of Cupper&amp;rsquo;s functionality is in its Hugo theme, also called Cupper. This is found in the theme folder.
- content docs lib snippets static themes  cupper    Do not &amp;ldquo;hack the core&amp;rdquo;. If you have any issues with Cupper, please report them to the Cupper Github repository and they will be dealt with ASAP.
-Cupper is undergoing constant development, so keep an eye out for new releases.</description>
     </item>
     
     <item>
@@ -164,66 +92,6 @@ Here&amp;rsquo;s how you write it:
       <description>Representing folder/file structures is simple and accessible in Cupper. Which is just as well, because some components may need to conform to a certain folder structure.
 The file tree is described using a markdown nested list structure:
 &amp;#x7b;{% fileTree %}}* Level 1 folder* Level 2 file* Level 2 folder* Level 3 file* Level 3 folder* Level 4 file* Level 3 folder* Level 4 file* Level 4 file* Level 3 file* Level 2 folder* Level 3 file* Level 3 file* Level 3 file* Level 2 file* Level 1 file&amp;#x7b;{% /fileTree %}}This is drawn in the following fashion, but preserves the underlying nested list structure for assistive technologies such as screen readers:</description>
-    </item>
-    
-    <item>
-      <title>Including images</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/media/including-images/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/media/including-images/</guid>
-      <description>From time to time, you&amp;rsquo;ll be wanting to include images illustrating the documented pattern in hand. Images live in the static folder, which is a sibling of the /content folder you&amp;rsquo;ll be mostly working in.
- content static  images  logo.png menu-button.gif      When you first make a copy of Cupper, Cupper&amp;rsquo;s own logo will be included. You should replace this with your own company or project logo.</description>
-    </item>
-    
-    <item>
-      <title>Including videos</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/media/including-videos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/media/including-videos/</guid>
-      <description>Cupper has a lot of its own shortcodes, but you can still use Hugo&amp;rsquo;s built in shortcodes. These include a simple shortcode for including YouTube videos in your content. The shortcode takes just one parameter — the video&amp;rsquo;s id.
-&amp;#x7b;{&amp;lt;youtube w7Ft2ymGmfc}}</description>
-    </item>
-    
-    <item>
-      <title>Notes &amp; warnings</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/notes-and-warnings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/notes-and-warnings/</guid>
-      <description>Cupper acknowledges that simple markdown is limiting when it comes to writing compelling documentation, so it provides a number of &amp;ldquo;shortcodes&amp;rdquo;. Shortcodes offer a simple syntax for including rich content. For example, Cupper provides shortcodes for including notes and warnings.
-Notes You may wish to pick out some content in your pattern&amp;rsquo;s documentation as a note — an aside to the main thrust of the pattern&amp;rsquo;s description. This is possible using the following syntax:</description>
-    </item>
-    
-    <item>
-      <title>References</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/references/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/references/</guid>
-      <description>Cross-references Cupper identifies the main content files in your documentation as patterns, and they&amp;rsquo;re kept in the content/ patterns folder. It&amp;rsquo;s easy to cross-reference patterns using the pattern shortcode. For example, I can reference the Notes &amp;amp; warningspattern. Here&amp;rsquo;s what the markdown looks like, including the shortcode:
-I can reference the &amp;#x7b;{% pattern &#34;Notes &amp; warnings&#34; %}} pattern here.This saves you having to worry about pathing and decorates the generated link with a bookmark icon, identifying the link as a pattern reference visually.</description>
-    </item>
-    
-    <item>
-      <title>Snippets</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/snippets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/snippets/</guid>
-      <description>A lot of the time, your larger documentation patterns will share some common techniques and utilities. For this reason, Cupper lets you save snippets of markdown in a snippets folder, alongside the main content folder.
-The example visually-hidden.md snippet describes the CSS needed to create content that is visually hidden but still available to screen readers. Since this is a technique/utility you are likely to use often, it&amp;rsquo;s nice to be able to just drop a snippet into your markdown content.</description>
-    </item>
-    
-    <item>
-      <title>Tables of contents</title>
-      <link>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/tables-of-contents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerseyi.github.io/a11yRef2/patterns/code-patterns/tables-of-contents/</guid>
-      <description>Pattern pages in Cupper that have two or more subheadings (&amp;lt;h2&amp;gt;s) automatically get a table of contents: a list of links to the main subsections for the page. This feature is made accessible as a navigation region with the &amp;ldquo;Table of contents&amp;rdquo; label and uses an ordered list. The table of contents markup for the Setuppage looks something like this:
-&amp;lt;nav class=&amp;#34;toc&amp;#34; aria-labelledby=&amp;#34;toc-heading&amp;#34;&amp;gt; &amp;lt;h2 id=&amp;#34;toc-heading&amp;#34;&amp;gt;Table of contents&amp;lt;/h2&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;#cleaning-the-content-folder&amp;#34;&amp;gt;“Cleaning” the content folder&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;#the-setup-command&amp;#34;&amp;gt;The setup command&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;#the-config-file&amp;#34;&amp;gt;The config file&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;#34;#including-a-logo&amp;#34;&amp;gt;Including a logo&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/nav&amp;gt; Tables of content are a neat way to break down the content of the page and give users a navigable overview.</description>
     </item>
     
     <item>
