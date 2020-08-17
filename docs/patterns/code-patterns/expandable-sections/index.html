@@ -301,6 +301,12 @@
           </a>
         </li>
       
+        <li>
+          <a href="#html-details-element">
+            HTML Details Element
+          </a>
+        </li>
+      
     </ol>
   </nav>
 
@@ -318,10 +324,95 @@
 </ul>
 <h2 id="code-patterns">Code patterns</h2>
 <p>There are a number of ways to construct an accordion menu. Below, we provide some common accordion menu patterns with accessibility friendly features.</p>
-<h3 id="html-details-element">HTML Details Element</h3>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<h2 id="html-details-element">HTML Details Element</h2>
+<p>What&rsquo;s that? An HTML accordion you say? Yup! It&rsquo;s called the <!-- raw HTML omitted -->HTML Details Element.<!-- raw HTML omitted -->
 
+<div class="demo-container">
+  
+      <div class="demo-inner" >
+        <div class="demo" id="js-demo-c6a1533a27eb81840f4bab5c99adec83"></div>
+        <button data-launch="js-demo-c6a1533a27eb81840f4bab5c99adec83">Launch <span aria-hidden="true">↗</span></button>
+      </div>
+      
+  
+  <template id="template-c6a1533a27eb81840f4bab5c99adec83">
+      
+<details>
+  <summary>OOOH, WHAT'S IN THERE?</summary>
+  <p>IT'S A PUPPY!</p>
+  <img src="{{ "images/thisisfine.gif" | absURL }}" alt="dog sits in burning house drinking coffee saying, this is fine"/>
+</details>
+
+  </template>
+  <script>
+    (function() {
+      var root = document.getElementById('js-demo-c6a1533a27eb81840f4bab5c99adec83');
+      var template = document.getElementById('template-c6a1533a27eb81840f4bab5c99adec83');
+
+      
+      var demoDiv = document.createElement('div');
+      demoDiv.innerHTML = template.innerHTML;
+      var standaloneScript = demoDiv.querySelector('script');
+      if (standaloneScript) {
+        standaloneScript.textContent = '(function() { document.getElementsByTagName(\'html\')[0].setAttribute(\'lang\', \'en\'); var demo = document; ' + standaloneScript.textContent + ' })();';
+      }
+
+      if (document.head.attachShadow) {
+        var templateScript = template.content.querySelector('script');
+        if (templateScript) {
+          var wrappedScript = '(function() { var demo = document.getElementById(\'js-demo-c6a1533a27eb81840f4bab5c99adec83\').shadowRoot;' + templateScript.textContent + '})();';
+          templateScript.textContent = wrappedScript;
+        }
+        root.attachShadow({mode: 'open'});
+        root.shadowRoot.appendChild(document.importNode(template.content, true));
+      } else {
+        root.innerHTML = '<p class="site-error"><strong style="font-weight:bold">Site error:</strong> A browser supporting Shadow DOM is needed to run encapsulated demos. You can launch the demo in a separate window ↓</p>';
+      }
+
+      var launchButton = document.querySelector('[data-launch="js-demo-c6a1533a27eb81840f4bab5c99adec83"]');
+      launchButton.addEventListener('click', function () {
+        var standalone = window.open();
+        standalone.document.body.innerHTML = demoDiv.innerHTML;
+
+        
+        var newScript = standalone.document.createElement('script');
+        var oldScript = standalone.document.querySelector('script');
+        if (oldScript) {
+          newScript.textContent = oldScript.textContent;
+          oldScript.parentNode.removeChild(oldScript);
+          standalone.document.body.appendChild(newScript);
+        }
+        
+
+        standalone.document.title = 'demo ' + "c6a1533a27eb81840f4bab5c99adec83";
+      });
+    })();
+  </script>
+</div>
+</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">details</span>&gt;
+  &lt;<span style="color:#f92672">summary</span>&gt;OOOH, WHAT&#39;S IN THERE?&lt;/<span style="color:#f92672">summary</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;IT&#39;S A PUPPY!&lt;/<span style="color:#f92672">p</span>&gt;
+  &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ &#34;</span><span style="color:#a6e22e">images</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">thisisfine</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">gif</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">|</span> <span style="color:#a6e22e">absURL</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dog sits in burning house drinking coffee saying, this is fine&#34;</span>/&gt;
+&lt;/<span style="color:#f92672">details</span>&gt;
+</code></pre></div><!-- raw HTML omitted -->
+<p>As of July 2020, it&rsquo;s accessible out of the box &ndash; although I did notice in my testing that the &ldquo;expanded&rdquo; and &ldquo;collapsed&rdquo; states are not toggled when there is no SUMMARY element nested in the DETIALS element.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The DETAILS element supports the TOGGLE event, so adding more functionality to it is pretty straightforward.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JS" data-lang="JS"><span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;toggle&#34;</span>, <span style="color:#a6e22e">event</span> =&gt; {
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">open</span>) {
+    <span style="color:#75715e">/* the element was toggled open */</span>
+    <span style="color:#75715e">//do awesome thing!
+</span><span style="color:#75715e"></span>    } <span style="color:#66d9ef">else</span> {
+      <span style="color:#75715e">/* the element was toggled closed */</span>
+      <span style="color:#75715e">// undo awesome thing
+</span><span style="color:#75715e"></span>    }
+  });
+</code></pre></div>
   </main>
 
           <footer role="contentinfo">

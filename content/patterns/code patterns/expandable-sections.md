@@ -28,7 +28,7 @@ What's that? An HTML accordion you say? Yup! It's called the <a href="https://de
 <details>
   <summary>OOOH, WHAT'S IN THERE?</summary>
   <p>IT'S A PUPPY!</p>
-  <img src="{{site.baseurl}}/assets/images/this is fine.gif" alt="dog sits in burning house drinking coffee saying, this is fine"/>
+  <img src="{{ "images/thisisfine.gif" | absURL }}" alt="dog sits in burning house drinking coffee saying, this is fine"/>
 </details>
 {{</demo>}}
 
@@ -36,7 +36,7 @@ What's that? An HTML accordion you say? Yup! It's called the <a href="https://de
 <details>
   <summary>OOOH, WHAT'S IN THERE?</summary>
   <p>IT'S A PUPPY!</p>
-  <img src="{{site.baseurl}}/assets/images/this is fine.gif" alt="dog sits in burning house drinking coffee saying, this is fine"/>
+  <img src="{{ "images/thisisfine.gif" | absURL }}" alt="dog sits in burning house drinking coffee saying, this is fine"/>
 </details>
 ```
 {{% note %}}
